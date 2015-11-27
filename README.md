@@ -7,7 +7,7 @@ This plugin will provider you a simple way to create a passcode vie, without doi
 </br>
 I had made three different passcode-views to show you how to use this plugin, and what this plugin can do.
 
-![alt tag](https://github.com/shuangyu/HPGooglePhotoBrowser/blob/master/HPGooglePhotoBrowser/Resources/demo.gif)
+![alt tag](https://github.com/shuangyu/HPPasscodeView/blob/master/HPPasscodeView/Resources/demo.gif)
 
 <h2>How to use this plugin?</h2>
 
