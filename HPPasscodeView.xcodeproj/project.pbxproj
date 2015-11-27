@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0C20AC1C07F64900A28034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20AB1C07F64900A28034 /* main.m */; };
+		FF0C20AF1C07F64900A28034 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20AE1C07F64900A28034 /* AppDelegate.m */; };
+		FF0C20B21C07F64900A28034 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20B11C07F64900A28034 /* ViewController.m */; };
+		FF0C20B51C07F64900A28034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0C20B31C07F64900A28034 /* Main.storyboard */; };
+		FF0C20B81C07F64900A28034 /* HPPasscodeView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20B61C07F64900A28034 /* HPPasscodeView.xcdatamodeld */; };
+		FF0C20BA1C07F64900A28034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0C20B91C07F64900A28034 /* Assets.xcassets */; };
+		FF0C20BD1C07F64900A28034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0C20BB1C07F64900A28034 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF0C20A71C07F64900A28034 /* HPPasscodeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPPasscodeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0C20AB1C07F64900A28034 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF0C20AD1C07F64900A28034 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF0C20AE1C07F64900A28034 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF0C20B01C07F64900A28034 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF0C20B11C07F64900A28034 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF0C20B41C07F64900A28034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF0C20B71C07F64900A28034 /* HPPasscodeView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HPPasscodeView.xcdatamodel; sourceTree = "<group>"; };
+		FF0C20B91C07F64900A28034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF0C20BC1C07F64900A28034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF0C20BE1C07F64900A28034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0C20A41C07F64900A28034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF0C209E1C07F64900A28034 = {
+			isa = PBXGroup;
+			children = (
+				FF0C20A91C07F64900A28034 /* HPPasscodeView */,
+				FF0C20A81C07F64900A28034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF0C20A81C07F64900A28034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20A71C07F64900A28034 /* HPPasscodeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0C20A91C07F64900A28034 /* HPPasscodeView */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20AD1C07F64900A28034 /* AppDelegate.h */,
+				FF0C20AE1C07F64900A28034 /* AppDelegate.m */,
+				FF0C20B01C07F64900A28034 /* ViewController.h */,
+				FF0C20B11C07F64900A28034 /* ViewController.m */,
+				FF0C20B31C07F64900A28034 /* Main.storyboard */,
+				FF0C20B91C07F64900A28034 /* Assets.xcassets */,
+				FF0C20BB1C07F64900A28034 /* LaunchScreen.storyboard */,
+				FF0C20BE1C07F64900A28034 /* Info.plist */,
+				FF0C20B61C07F64900A28034 /* HPPasscodeView.xcdatamodeld */,
+				FF0C20AA1C07F64900A28034 /* Supporting Files */,
+			);
+			path = HPPasscodeView;
+			sourceTree = "<group>";
+		};
+		FF0C20AA1C07F64900A28034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20AB1C07F64900A28034 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0C20A61C07F64900A28034 /* HPPasscodeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0C20C11C07F64900A28034 /* Build configuration list for PBXNativeTarget "HPPasscodeView" */;
+			buildPhases = (
+				FF0C20A31C07F64900A28034 /* Sources */,
+				FF0C20A41C07F64900A28034 /* Frameworks */,
+				FF0C20A51C07F64900A28034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPPasscodeView;
+			productName = HPPasscodeView;
+			productReference = FF0C20A71C07F64900A28034 /* HPPasscodeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0C209F1C07F64900A28034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hu, Peng";
+				TargetAttributes = {
+					FF0C20A61C07F64900A28034 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FF0C20A21C07F64900A28034 /* Build configuration list for PBXProject "HPPasscodeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF0C209E1C07F64900A28034;
+			productRefGroup = FF0C20A81C07F64900A28034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0C20A61C07F64900A28034 /* HPPasscodeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0C20A51C07F64900A28034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0C20BD1C07F64900A28034 /* LaunchScreen.storyboard in Resources */,
+				FF0C20BA1C07F64900A28034 /* Assets.xcassets in Resources */,
+				FF0C20B51C07F64900A28034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0C20A31C07F64900A28034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0C20B81C07F64900A28034 /* HPPasscodeView.xcdatamodeld in Sources */,
+				FF0C20B21C07F64900A28034 /* ViewController.m in Sources */,
+				FF0C20AF1C07F64900A28034 /* AppDelegate.m in Sources */,
+				FF0C20AC1C07F64900A28034 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF0C20B31C07F64900A28034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0C20B41C07F64900A28034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF0C20BB1C07F64900A28034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0C20BC1C07F64900A28034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF0C20BF1C07F64900A28034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF0C20C01C07F64900A28034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0C20C21C07F64900A28034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPPasscodeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.HPPasscodeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF0C20C31C07F64900A28034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPPasscodeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.HPPasscodeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0C20A21C07F64900A28034 /* Build configuration list for PBXProject "HPPasscodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0C20BF1C07F64900A28034 /* Debug */,
+				FF0C20C01C07F64900A28034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0C20C11C07F64900A28034 /* Build configuration list for PBXNativeTarget "HPPasscodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0C20C21C07F64900A28034 /* Debug */,
+				FF0C20C31C07F64900A28034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF0C20B61C07F64900A28034 /* HPPasscodeView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF0C20B71C07F64900A28034 /* HPPasscodeView.xcdatamodel */,
+			);
+			currentVersion = FF0C20B71C07F64900A28034 /* HPPasscodeView.xcdatamodel */;
+			path = HPPasscodeView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF0C209F1C07F64900A28034 /* Project object */;
+}
