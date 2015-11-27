@@ -1,8 +1,8 @@
 # HPPasscodeView
 <h2>What this plugin can do?</h2>
 <b>
-Handling the state change of a passcode view is alway the most complex part of coding, it has so many different conditions.
-This plugin will provider you a simple way to create a passcode vie, without doing any extra work it will has the ablity to handle all these kind of states change thing, just like the demo image below, all you need to do is focusing on ur UI.
+Handling the state change of a passcode view is alway the most complex part of coding, it has so many different conditions.<br/>
+This plugin will provider you a simple way to create a passcode view, without doing any extra work it will has the ablity to handle all these kind of states change thing, just like the demo image below, all you need to do is focusing on ur UI.
 </b>
 </br>
 I had made three different passcode-views to show you how to use this plugin, and what this plugin can do.
