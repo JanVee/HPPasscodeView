@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  HPPasscodeView
+//  HPDotView
 //
-//  Created by Hu, Peng on 11/27/15.
-//  Copyright © 2015 Hu, Peng. All rights reserved.
+//  Created by 胡鹏 on 15/11/26.
+//  Copyright © 2015年 胡鹏. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

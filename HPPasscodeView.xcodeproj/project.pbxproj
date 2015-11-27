@@ -14,6 +14,18 @@
 		FF0C20B81C07F64900A28034 /* HPPasscodeView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20B61C07F64900A28034 /* HPPasscodeView.xcdatamodeld */; };
 		FF0C20BA1C07F64900A28034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0C20B91C07F64900A28034 /* Assets.xcassets */; };
 		FF0C20BD1C07F64900A28034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0C20BB1C07F64900A28034 /* LaunchScreen.storyboard */; };
+		FF0C20E21C07F7A600A28034 /* HPPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20C61C07F7A600A28034 /* HPPasscodeView.m */; };
+		FF0C20E31C07F7A600A28034 /* UIColor+ColorExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20CB1C07F7A600A28034 /* UIColor+ColorExt.m */; };
+		FF0C20E41C07F7A600A28034 /* UIView+ViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20CD1C07F7A600A28034 /* UIView+ViewExt.m */; };
+		FF0C20E51C07F7A600A28034 /* HPLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20D01C07F7A600A28034 /* HPLine.m */; };
+		FF0C20E61C07F7A600A28034 /* HPShadowLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20D21C07F7A600A28034 /* HPShadowLine.m */; };
+		FF0C20E81C07F7A600A28034 /* HPPasswordStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20D81C07F7A600A28034 /* HPPasswordStorage.m */; };
+		FF0C20E91C07F7A600A28034 /* HPFixedLengthPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20DB1C07F7A600A28034 /* HPFixedLengthPasscodeView.m */; };
+		FF0C20EA1C07F7A600A28034 /* HPDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20DD1C07F7A600A28034 /* HPDotView.m */; };
+		FF0C20EB1C07F7A600A28034 /* HPDotViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20DF1C07F7A600A28034 /* HPDotViewAppearance.m */; };
+		FF0C20EC1C07F7A600A28034 /* HPSecurityInputPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20E11C07F7A600A28034 /* HPSecurityInputPasscodeView.m */; };
+		FF0C20EF1C07F8C200A28034 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20EE1C07F8C200A28034 /* DemoViewController.m */; };
+		FF0C20F21C080B0000A28034 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C20F11C080B0000A28034 /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,31 @@
 		FF0C20B91C07F64900A28034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0C20BC1C07F64900A28034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0C20BE1C07F64900A28034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0C20C51C07F7A600A28034 /* HPPasscodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPPasscodeView.h; sourceTree = "<group>"; };
+		FF0C20C61C07F7A600A28034 /* HPPasscodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPasscodeView.m; sourceTree = "<group>"; };
+		FF0C20C81C07F7A600A28034 /* HPCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCommonMacro.h; sourceTree = "<group>"; };
+		FF0C20CA1C07F7A600A28034 /* UIColor+ColorExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorExt.h"; sourceTree = "<group>"; };
+		FF0C20CB1C07F7A600A28034 /* UIColor+ColorExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorExt.m"; sourceTree = "<group>"; };
+		FF0C20CC1C07F7A600A28034 /* UIView+ViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewExt.h"; sourceTree = "<group>"; };
+		FF0C20CD1C07F7A600A28034 /* UIView+ViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewExt.m"; sourceTree = "<group>"; };
+		FF0C20CF1C07F7A600A28034 /* HPLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPLine.h; sourceTree = "<group>"; };
+		FF0C20D01C07F7A600A28034 /* HPLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPLine.m; sourceTree = "<group>"; };
+		FF0C20D11C07F7A600A28034 /* HPShadowLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPShadowLine.h; sourceTree = "<group>"; };
+		FF0C20D21C07F7A600A28034 /* HPShadowLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPShadowLine.m; sourceTree = "<group>"; };
+		FF0C20D71C07F7A600A28034 /* HPPasswordStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPPasswordStorage.h; sourceTree = "<group>"; };
+		FF0C20D81C07F7A600A28034 /* HPPasswordStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPasswordStorage.m; sourceTree = "<group>"; };
+		FF0C20DA1C07F7A600A28034 /* HPFixedLengthPasscodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFixedLengthPasscodeView.h; sourceTree = "<group>"; };
+		FF0C20DB1C07F7A600A28034 /* HPFixedLengthPasscodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFixedLengthPasscodeView.m; sourceTree = "<group>"; };
+		FF0C20DC1C07F7A600A28034 /* HPDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPDotView.h; sourceTree = "<group>"; };
+		FF0C20DD1C07F7A600A28034 /* HPDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPDotView.m; sourceTree = "<group>"; };
+		FF0C20DE1C07F7A600A28034 /* HPDotViewAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPDotViewAppearance.h; sourceTree = "<group>"; };
+		FF0C20DF1C07F7A600A28034 /* HPDotViewAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPDotViewAppearance.m; sourceTree = "<group>"; };
+		FF0C20E01C07F7A600A28034 /* HPSecurityInputPasscodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSecurityInputPasscodeView.h; sourceTree = "<group>"; };
+		FF0C20E11C07F7A600A28034 /* HPSecurityInputPasscodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSecurityInputPasscodeView.m; sourceTree = "<group>"; };
+		FF0C20ED1C07F8C200A28034 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		FF0C20EE1C07F8C200A28034 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		FF0C20F01C080B0000A28034 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		FF0C20F11C080B0000A28034 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +97,8 @@
 		FF0C20A91C07F64900A28034 /* HPPasscodeView */ = {
 			isa = PBXGroup;
 			children = (
+				FF0C20C41C07F7A600A28034 /* Core */,
+				FF0C20D31C07F7A600A28034 /* Demos */,
 				FF0C20AD1C07F64900A28034 /* AppDelegate.h */,
 				FF0C20AE1C07F64900A28034 /* AppDelegate.m */,
 				FF0C20B01C07F64900A28034 /* ViewController.h */,
@@ -80,6 +119,85 @@
 				FF0C20AB1C07F64900A28034 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF0C20C41C07F7A600A28034 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20C51C07F7A600A28034 /* HPPasscodeView.h */,
+				FF0C20C61C07F7A600A28034 /* HPPasscodeView.m */,
+				FF0C20C71C07F7A600A28034 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FF0C20C71C07F7A600A28034 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20C81C07F7A600A28034 /* HPCommonMacro.h */,
+				FF0C20C91C07F7A600A28034 /* HPExtensionKit */,
+				FF0C20CE1C07F7A600A28034 /* HPLineView */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF0C20C91C07F7A600A28034 /* HPExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20CA1C07F7A600A28034 /* UIColor+ColorExt.h */,
+				FF0C20CB1C07F7A600A28034 /* UIColor+ColorExt.m */,
+				FF0C20CC1C07F7A600A28034 /* UIView+ViewExt.h */,
+				FF0C20CD1C07F7A600A28034 /* UIView+ViewExt.m */,
+			);
+			path = HPExtensionKit;
+			sourceTree = "<group>";
+		};
+		FF0C20CE1C07F7A600A28034 /* HPLineView */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20CF1C07F7A600A28034 /* HPLine.h */,
+				FF0C20D01C07F7A600A28034 /* HPLine.m */,
+				FF0C20D11C07F7A600A28034 /* HPShadowLine.h */,
+				FF0C20D21C07F7A600A28034 /* HPShadowLine.m */,
+			);
+			path = HPLineView;
+			sourceTree = "<group>";
+		};
+		FF0C20D31C07F7A600A28034 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20D41C07F7A600A28034 /* DemoViewControllers */,
+				FF0C20D71C07F7A600A28034 /* HPPasswordStorage.h */,
+				FF0C20D81C07F7A600A28034 /* HPPasswordStorage.m */,
+				FF0C20D91C07F7A600A28034 /* SDViews */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		FF0C20D41C07F7A600A28034 /* DemoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20ED1C07F8C200A28034 /* DemoViewController.h */,
+				FF0C20EE1C07F8C200A28034 /* DemoViewController.m */,
+				FF0C20F01C080B0000A28034 /* SettingViewController.h */,
+				FF0C20F11C080B0000A28034 /* SettingViewController.m */,
+			);
+			path = DemoViewControllers;
+			sourceTree = "<group>";
+		};
+		FF0C20D91C07F7A600A28034 /* SDViews */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C20DA1C07F7A600A28034 /* HPFixedLengthPasscodeView.h */,
+				FF0C20DB1C07F7A600A28034 /* HPFixedLengthPasscodeView.m */,
+				FF0C20DC1C07F7A600A28034 /* HPDotView.h */,
+				FF0C20DD1C07F7A600A28034 /* HPDotView.m */,
+				FF0C20DE1C07F7A600A28034 /* HPDotViewAppearance.h */,
+				FF0C20DF1C07F7A600A28034 /* HPDotViewAppearance.m */,
+				FF0C20E01C07F7A600A28034 /* HPSecurityInputPasscodeView.h */,
+				FF0C20E11C07F7A600A28034 /* HPSecurityInputPasscodeView.m */,
+			);
+			path = SDViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +270,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0C20EA1C07F7A600A28034 /* HPDotView.m in Sources */,
+				FF0C20EB1C07F7A600A28034 /* HPDotViewAppearance.m in Sources */,
+				FF0C20F21C080B0000A28034 /* SettingViewController.m in Sources */,
 				FF0C20B81C07F64900A28034 /* HPPasscodeView.xcdatamodeld in Sources */,
+				FF0C20EF1C07F8C200A28034 /* DemoViewController.m in Sources */,
+				FF0C20E91C07F7A600A28034 /* HPFixedLengthPasscodeView.m in Sources */,
+				FF0C20E41C07F7A600A28034 /* UIView+ViewExt.m in Sources */,
+				FF0C20E21C07F7A600A28034 /* HPPasscodeView.m in Sources */,
+				FF0C20E51C07F7A600A28034 /* HPLine.m in Sources */,
+				FF0C20E61C07F7A600A28034 /* HPShadowLine.m in Sources */,
+				FF0C20E81C07F7A600A28034 /* HPPasswordStorage.m in Sources */,
 				FF0C20B21C07F64900A28034 /* ViewController.m in Sources */,
+				FF0C20E31C07F7A600A28034 /* UIColor+ColorExt.m in Sources */,
 				FF0C20AF1C07F64900A28034 /* AppDelegate.m in Sources */,
 				FF0C20AC1C07F64900A28034 /* main.m in Sources */,
+				FF0C20EC1C07F7A600A28034 /* HPSecurityInputPasscodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +434,7 @@
 				FF0C20C31C07F64900A28034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
